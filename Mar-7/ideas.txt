@@ -1,0 +1,116 @@
+Here are **10 real-world Python practice questions** on **classes and objects** along with their **requirements**:  
+
+---
+
+### **1. Bank Account System**  
+#### **Requirements:**  
+- Create a `BankAccount` class.  
+- Attributes: `account_holder`, `balance` (default: 0).  
+- Methods:  
+  - `deposit(amount)`: Add money.  
+  - `withdraw(amount)`: Deduct money if sufficient balance; otherwise, print `"Insufficient funds"`.  
+  - `display_balance()`: Show the balance.  
+- Create an account for `"Alice"` with `$1000`, deposit `$500`, withdraw `$200`, and display the balance.  
+
+---
+
+### **2. Student Report Card**  
+#### **Requirements:**  
+- Create a `Student` class.  
+- Attributes: `name`, `grades` (a list of numbers).  
+- Methods:  
+  - `add_grade(grade)`: Add a grade to the list.  
+  - `calculate_average()`: Return the average of all grades.  
+- Create a `Student` object for `"John"`, add grades **85, 90, and 78**, and print the average.  
+
+---
+
+### **3. Car Showroom**  
+#### **Requirements:**  
+- Create a `Car` class.  
+- Attributes: `brand`, `model`, `price`.  
+- Methods:  
+  - `display_info()`: Print car details.  
+- Create **three different car objects** and display their details.  
+
+---
+
+### **4. Library Management System**  
+#### **Requirements:**  
+- Create a `Book` class.  
+- Attributes: `title`, `author`, `is_available` (default: True).  
+- Methods:  
+  - `borrow_book()`: Change `is_available` to `False` if available; otherwise, print `"Book not available"`.  
+  - `return_book()`: Change `is_available` to `True`.  
+- Create a book `"Python Basics"` and try borrowing and returning it.  
+
+---
+
+### **5. Employee Payroll System**  
+#### **Requirements:**  
+- Create an `Employee` class.  
+- Attributes: `name`, `salary`, `department`.  
+- Methods:  
+  - `apply_bonus()`: Increase salary by **10%**.  
+- Create an employee `"Alice"` with a salary of **$5000**, apply the bonus, and display the updated salary.  
+
+---
+
+### **6. Online Shopping Cart**  
+#### **Requirements:**  
+- Create a `ShoppingCart` class.  
+- Attributes: `items` (a dictionary of item names and prices).  
+- Methods:  
+  - `add_item(name, price)`: Add an item to the cart.  
+  - `remove_item(name)`: Remove an item.  
+  - `calculate_total()`: Return the total cost.  
+- Add `"Laptop"` for **$1000** and `"Mouse"` for **$50**, remove `"Mouse"`, and print the total cost.  
+
+---
+
+### **7. Movie Ticket Booking**  
+#### **Requirements:**  
+- Create a `MovieTicket` class.  
+- Attributes: `movie_name`, `seat_number`, `price`, `is_booked` (default: False).  
+- Methods:  
+  - `book_ticket()`: Mark the ticket as booked if available.  
+- Book a ticket for `"Avengers"` seat **A10** costing **$12**, and confirm the booking.  
+
+---
+
+### **8. Smart Home System**  
+#### **Requirements:**  
+- Create a `SmartDevice` class.  
+- Attributes: `device_name`, `status` (default: `"Off"`).  
+- Methods:  
+  - `turn_on()`: Set status to `"On"`.  
+  - `turn_off()`: Set status to `"Off"`.  
+- Create `"Light"` and `"Fan"` objects, turn them **on**, and print their status.  
+
+---
+
+### **9. ATM Machine Simulation**  
+#### **Requirements:**  
+- Create an `ATM` class.  
+- Attributes: `pin`, `balance` (default: `$1000`).  
+- Methods:  
+  - `authenticate(input_pin)`: Check if the PIN is correct.  
+  - `withdraw(amount)`: Deduct money if balance is sufficient.  
+  - `deposit(amount)`: Add money.  
+  - `check_balance()`: Display balance.  
+- Simulate ATM operations by verifying PIN, depositing `$500`, withdrawing `$200`, and checking balance.  
+
+---
+
+### **10. Hotel Room Booking**  
+#### **Requirements:**  
+- Create a `HotelRoom` class.  
+- Attributes: `room_number`, `room_type`, `is_booked` (default: False).  
+- Methods:  
+  - `book_room()`: Change `is_booked` to `True`.  
+  - `cancel_booking()`: Change `is_booked` to `False`.  
+- Book room **101** (type: `"Deluxe"`) and then cancel the booking.  
+
+---
+
+These exercises will help you **master OOP in Python** by applying **classes, objects, methods, and attributes** to real-world scenarios. Let me know if you need solutions! 🚀
