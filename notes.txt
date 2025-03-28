@@ -1,0 +1,22 @@
+step 1: install django 
+
+step 2: check version of django 
+
+step 3: create project of django 
+	django-admin startproject ProjectName 
+	
+	
+step 4: cd ProjectName 
+
+step 5: python3 manage.py runserver
+
+step 6: create app of django 
+	akash@akash-Lap:~/Desktop/07_Python/Project/ProjectName
+	
+step 7: 
+	django-admin startapp AppName
+	whenever create app default database of django is automatically created dbsqlite3 
+	
+
+step 8: 
+	open in your code editor 
