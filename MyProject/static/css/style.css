@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap');
+.navbar{
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.nav{
+    display: flex;
+}
+
+
+.nav-item{
+    font-size: 20px;
+    list-style: none;
+    padding: 5px;
+}
+
+.nav-link{
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid rgb(3, 83, 83) ;
+    text-decoration: none;
+    color: rgb(3, 83, 83);
+    font-weight: bolder;
+}
+
+
+.nav-link:hover{
+    background-color: rgb(3, 83, 83);
+    color: white;
+}
+
+
+.cat h1{
+    text-align: center;
+    font-size: 45px;
+    font-family: "Lavishly Yours";
+    font-weight: bolder;
+    font-style: italic;
+    text-shadow: 2px 2px rgb(21, 144, 152);
+}
+
+.sec-1,.sec-2{
+    background-color: rgb(230, 230, 230);
+}
+
+.card{
+    border: 2px solid black;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+
+.item-block{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
